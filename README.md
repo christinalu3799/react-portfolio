@@ -1,1 +1,1 @@
-## Personal Portfolio rebuilt with React
+## Personal Portfolio rebuilt with React and styled with Tailwind
