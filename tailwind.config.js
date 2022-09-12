@@ -7,7 +7,7 @@ module.exports = {
         'mono': ['Source Code Pro'],
         'display': ['Libre Baskerville']
       }
-    },
+    }
   },
   plugins: [],
 }

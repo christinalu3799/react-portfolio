@@ -18,7 +18,7 @@ const Navbar = () => {
             </div>
 
             {/* menu */}
-            {/* display anything above medium */}
+            {/* display anything above small */}
             <ul className='hidden sm:flex text-xs'>
                 <li className='hover:underline underline-offset-4'>Home</li>
                 <li className='hover:underline underline-offset-4'>About</li>

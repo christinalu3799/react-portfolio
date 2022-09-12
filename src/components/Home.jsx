@@ -1,17 +1,31 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
-
+import Headshot from '../assets/headshot.jpg'
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#ffffff]'>
+    <div name='home' className='flex w-full h-screen justify-center bg-[#ffffff] pt-[80px]'>
       {/* container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full font-mono text-[#5e5e5e]'>
-        <p className=''>Hi, my name is</p>
-        <h1 className='text-5xl sm:text-6xl font-bold font-display py-4'>Christina Lu</h1>
-        <h2 className='text-2xl sm:text-3xl font-bold'>I'm a Fullstack Developer.</h2>
-        <div className='py-4'>
-          <button>View My Work <HiArrowNarrowRight /></button>
+      <div className='flex flex-col-reverse h-full sm:flex-row max-w-[1000px] justify-center items-center'> 
+
+        {/* hero */}
+        <div className='w-full sm:w-8/12 px-8 sm:pl-18 sm:pr-0 mx-auto flex flex-col justify-center h-fit sm:h-full font-mono text-[#5e5e5e]'>
+          <p className='mt-8'>Hi, my name is</p>
+          <h1 className='text-5xl sm:text-6xl font-bold font-display py-4'>Christina Lu</h1>
+          <h2 className='text-2xl sm:text-3xl font-bold'>I'm a Fullstack Developer.</h2>
+          <div className='py-4'>
+            <button className='text-[#5e5e5e] group border px-6 py-3 my-2 flex items-center hover:bg-[#5e5e5e] hover:text-white hover:border-transparent rounded'>
+              View My Work 
+              <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3' /></span>
+            </button>
+          </div>
+        
         </div>
+
+        {/* headshot */}
+        <div className='px-8 w-full sm:w-[350px] sm:max-w-[300px] '>
+          <img src={Headshot} className='object-cover w-full rounded-xl'></img>
+        </div>
+      
       </div>
     </div>
   )
