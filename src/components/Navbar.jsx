@@ -29,11 +29,11 @@ const Navbar = () => {
 
             {/* hamburger */}
             <div onClick={handleClick} className='sm:hidden z-10'>
-                {!nav ? <FaBars /> : <FaTimes />}
+                {!nav ? <FaBars color='#5e5e5e'/> : <FaTimes color='#ffffff'/>}
             </div>
 
             {/* mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#cecac5] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#5e5e5e] text-[#ffffff] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-2xl'>Home</li>
                 <li className='py-6 text-2xl'>About</li>
                 <li className='py-6 text-2xl'>Skills</li>
