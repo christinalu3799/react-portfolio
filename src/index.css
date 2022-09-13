@@ -13,3 +13,21 @@
         @apply cursor-pointer;
     }
 }
+
+.content-div {
+    backdrop-filter: grayscale(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    transition: all ease-in-out 300ms;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        #72919F60,
+        #72919F60
+    )!important;
+}

@@ -19,7 +19,7 @@ const Navbar = () => {
 
             {/* menu */}
             {/* display anything above small */}
-            <ul className='hidden sm:flex text-xs'>
+            <ul className='hidden sm:flex text-xs text-[#5e5e5e]'>
                 <li className='hover:underline underline-offset-4'>Home</li>
                 <li className='hover:underline underline-offset-4'>About</li>
                 <li className='hover:underline underline-offset-4'>Skills</li>

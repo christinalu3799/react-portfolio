@@ -10,14 +10,14 @@ const About = () => {
         <div className='flex flex-col justify-center items-center w-full h-full font-mono'>
 
             {/* wave */}
-            <div className=' w-screen mb-16'> 
+            <div className=' w-full mb-16'> 
                 <img src={Wave} className='w-full'></img>
             </div>
 
             {/* title */}
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'> 
                 <div className='sm:text-right pb-8 pl-8'>
-                    <p className='text-3xl font-bold inline border-b border-[#5e5e5e]'>
+                    <p className='text-3xl font-bold inline border-b-4'>
                         About
                     </p>
                 </div>
@@ -36,7 +36,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='max-w-[1000px] px-8 py-2 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
+            <div className='max-w-[1000px] px-8 py-4 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                 <div className='sm:text-right font-bold'>
                     <p>How I got here</p>
                 </div>
@@ -45,7 +45,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='max-w-[1000px] px-8 py-2 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
+            <div className='max-w-[1000px] px-8 py-4 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                 <div className='sm:text-right font-bold'>
                     <p>What am I up to?</p>
                 </div>
@@ -55,7 +55,7 @@ const About = () => {
             </div>
             
             {/* wave */}
-            <div className='w-screen mt-16'> 
+            <div className='w-full mt-16 mb-8'> 
                 <img src={Wave} className='w-full'></img>
             </div>
         </div>

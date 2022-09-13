@@ -3,13 +3,13 @@ import Wave from '../assets/wave.svg'
 
 const Skills = () => {
   return (
-    <div class='skills' className='w-full font-mono text-[#5e5e5e]'>
+    <div name='skills' className='w-full font-mono text-[#5e5e5e]'>
         
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 sm:px-32 flex flex-col justify-content w-full h-full'>
 
-            <div className='my-4'>
-                <p className='text-3xl font-bold inline border-b border-[#5e5e5e]'>Skills</p>
+            <div className='my-4 py-4'>
+                <p className='text-3xl font-bold inline border-b-4'>Skills</p>
             </div>
                 <p className='text-sm'>These are the technologies I work with every day.</p>
             
@@ -102,7 +102,7 @@ const Skills = () => {
         </div>
        
         {/* wave */}
-        <div className='w-screen'> 
+        <div className='w-full my-8'> 
             <img src={Wave} className='w-full'></img>
         </div> 
     </div>
