@@ -42,30 +42,30 @@ const Navbar = () => {
             </ul>
             
             {/* social icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden md:flex fixed flex-col bottom-1 left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aaaaaa]'>
-                        <a className='w-full flex justify-between items-center text-[#5e5e5e]'
-                        href='/'>
-                            LinkedIn <FaLinkedin size={30} />
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919F] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                        href='https://www.linkedin.com/in/christinalu3799/' target='_blank'>
+                            LinkedIn <FaLinkedin size={25} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aaaaaa]'>
-                        <a className='w-full flex justify-between items-center text-[#5e5e5e]'
-                        href='/'>
-                            GitHub <FaGithub size={30} />
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919f] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                        href='https://github.com/christinalu3799' target='_blank'>
+                            GitHub <FaGithub size={25} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aaaaaa]'>
-                        <a className='w-full flex justify-between items-center text-[#5e5e5e]'
-                        href='/'>
-                            Email <HiOutlineMail size={30} />
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919f] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                        href='mailto:christina.lu3799@gmail.com' target='_blank'>
+                            Email <HiOutlineMail size={25} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aaaaaa]'>
-                        <a className='w-full flex justify-between items-center text-[#5e5e5e]'
-                        href='/'>
-                            Resume <BsFillPersonLinesFill size={30} />
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919f] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                        href='https://drive.google.com/file/d/103R4L61n0ONW2HID07CaawojnFtiBe9y/view?usp=sharing' target='_blank'>
+                            Resume <BsFillPersonLinesFill size={25} />
                         </a>
                     </li>
                 </ul>
