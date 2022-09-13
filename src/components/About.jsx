@@ -5,8 +5,6 @@ const About = () => {
   return (
     <div name='about' className='w-full h-fit text-[#5e5e5e]'>
 
-        
-
         <div className='flex flex-col justify-center items-center w-full h-full font-mono'>
 
             {/* wave */}
