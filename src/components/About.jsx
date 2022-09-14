@@ -52,10 +52,6 @@ const About = () => {
                 </div>
             </div>
             
-            {/* wave */}
-            <div className='w-full mt-16 mb-8'> 
-                <img src={Wave} className='w-full'></img>
-            </div>
         </div>
 
 

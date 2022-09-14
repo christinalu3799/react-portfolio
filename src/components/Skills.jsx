@@ -4,7 +4,10 @@ import Wave from '../assets/wave.svg'
 const Skills = () => {
   return (
     <div name='skills' className='w-full font-mono text-[#5e5e5e]'>
-        
+        {/* wave */}
+        <div className='w-full mt-16 mb-8'> 
+            <img src={Wave} className='w-full'></img>
+        </div>
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 sm:px-32 flex flex-col justify-content w-full h-full'>
 
