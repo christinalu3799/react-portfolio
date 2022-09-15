@@ -12,7 +12,7 @@ const Home = () => {
         {/* hero */}
         <div className='w-full sm:w-8/12 px-8 sm:pl-18 sm:pr-0 mx-auto flex flex-col justify-center h-fit sm:h-full font-mono text-[#5e5e5e]'>
 
-          <p className='mt-8'>Hi, my name is</p>
+          <p className='mt-8 text-xl'>Hi, my name is</p>
           <h1 className='text-5xl sm:text-6xl font-bold font-display py-4'>Christina Lu</h1>
           <h2 className='text-2xl sm:text-3xl font-bold'>I'm a Fullstack Developer.</h2>
           <div className='py-4'>
