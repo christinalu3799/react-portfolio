@@ -20,7 +20,7 @@ const Navbar = () => {
 
             {/* menu */}
             {/* display anything above small */}
-            <ul className='hidden sm:flex text-xs text-[#5e5e5e]'>
+            <ul className='hidden sm:flex text-[#5e5e5e]'>
                 <li className='hover:underline underline-offset-4'>
                     <Link to="home" smooth={true} duration={500}>
                         home

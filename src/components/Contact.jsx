@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='w-screen mb-16'> 
             <img src={Wave} className='w-full'></img>
         </div>
-        <form action='https://getform.io/f/e1d0dccd-6278-4cf3-b445-eaa4cc127c68' className='flex flex-col max-w-[500px] w-full text-xs' method='POST'>
+        <form action='https://getform.io/f/e1d0dccd-6278-4cf3-b445-eaa4cc127c68' className='flex flex-col max-w-[600px] w-full' method='POST'>
             <div className='pb-4'>
                 <p className='text-4xl font-bold inline border-b-4'>Contact</p>
                 <p className='py-4'>Feel free to reach out to me about anything or just to say hi!</p>

@@ -9,12 +9,12 @@ const Skills = () => {
             <img src={Wave} className='w-full'></img>
         </div>
         {/* container */}
-        <div className='max-w-[1000px] mx-auto px-8 sm:px-32 flex flex-col justify-content w-full h-full'>
+        <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-content w-full h-full'>
 
             <div className='my-4 py-4'>
-                <p className='text-3xl font-bold inline border-b-4'>Skills</p>
+                <p className='text-4xl font-bold inline border-b-4'>Skills</p>
             </div>
-                <p className='text-sm'>These are the technologies I work with every day.</p>
+                <p className='mb-2'>These are the technologies I work with every day.</p>
             
             <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8 px-4'>
                 <div>

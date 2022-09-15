@@ -15,7 +15,7 @@ const About = () => {
             {/* title */}
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'> 
                 <div className='sm:text-right pb-8 pl-8'>
-                    <p className='text-3xl font-bold inline border-b-4'>
+                    <p className='text-4xl font-bold inline border-b-4'>
                         About
                     </p>
                 </div>
@@ -29,7 +29,7 @@ const About = () => {
                 <div className='sm:text-right font-bold'>
                     <p>Hello! I'm Christina, a self-taught fullstack web developer. </p>
                 </div>
-                <div className='text-sm'>
+                <div>
                     <p>I love to create beautiful and functional experiences from scratch.</p>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const About = () => {
                 <div className='sm:text-right font-bold'>
                     <p>How I got here</p>
                 </div>
-                <div className='text-sm'>
+                <div>
                     <p>My passion for web development began when I was asked to maintain the website of a law firm I used to work at. Watching the ideas in my mind come to life in the browser was like magic to me, and I never got sick of it.</p>
                 </div>
             </div>
@@ -47,7 +47,7 @@ const About = () => {
                 <div className='sm:text-right font-bold'>
                     <p>What am I up to?</p>
                 </div>
-                <div className='text-sm'>
+                <div>
                     <p>I am currently a coding bootcamp student on track to graduate in November of 2022. By then, I will have accumulated over 450 hours of coding experience and knowledge on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies.</p>
                 </div>
             </div>
