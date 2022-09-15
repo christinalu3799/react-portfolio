@@ -14,7 +14,7 @@
     }
 }
 
-.content-div {
+/* .content-div {
     backdrop-filter: grayscale(30%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
     width: 100%;
     overflow: hidden;
     transition: all ease-in-out 300ms;
-}
+} */
 
 /* .content-div:hover {
     background-image: linear-gradient(

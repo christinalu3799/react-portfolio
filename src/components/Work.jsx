@@ -5,7 +5,7 @@ import Portfolio from '../assets/portfolio.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-[#5e5e5e] font-mono'>
+    <div name='work' className='w-full md:h-fit text-[#5e5e5e] font-mono box-border'>
 
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 sm:px-32 flex flex-col justify-center w-full h-full'>
@@ -19,72 +19,38 @@ const Work = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
                 
             {/* ===================================================================== */}
-                <div style={{backgroundImage: `url(${Portfolio})`}} className='shadow-lg shadow-[#929292] group container rounded flex justify-center items-center mx-auto content-div px-4 -z-10'>
+                <div className='h-fit p-4 sm:h-[300px] shadow-lg shadow-[#929292] group container rounded flex flex-col justify-center items-center mx-auto '>
 
-                    {/* hover effect */}
-                    {/* <div className='opacity-0 group-hover:opacity-100 flex flex-col justify-center transition duration-300 ease-in-out'>
-                        <span className='text-center text-sm font-bold'>
+                    <div className='w-full h-full sm:h-[150px] bg-[#eeeeee]'> 
+                        <img className='object-cover rounded w-full h-full shadow' src={Portfolio}/>
+                    </div>
+                    
+                   
+                    <div className='flex flex-col justify-center mt-4 transition duration-300 ease-in-out'>
+                        {/* project title */}
+                        <span className='mt-2 text-center text-sm font-bold'>
                             Personal Portfolio
                         </span>
+                        {/* project subtitle */}
                         <span className='text-center text-xs font-bold'>
-                            React | Tailwind 
-                        </span> */}
-                        {/* buttons */}
-                        {/* <div className='pt-4 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded px-4 py-3 m-2 bg-white text-[#5e5e5e] font-bold text-xs'>Demo</button>
-                            </a>
-                            <a href='/'>
-                                <button className='text-center rounded px-4 py-3 m-2 bg-white text-[#5e5e5e] font-bold text-xs'>Code</button>
-                            </a>
-                        </div>
-                    </div> */}
-                </div>
-                <div style={{backgroundImage: `url(${RestaurantManager})`}} className='shadow-lg shadow-[#929292] group container rounded flex justify-center items-center mx-auto content-div px-4 -z-10'>
+                            React | Tailwind CSS
+                        </span>
 
-                    {/* hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100 flex flex-col justify-center transition duration-300 ease-in-out'>
-                        <span className='text-center text-sm font-bold'>
-                            Full CRUD application
-                        </span>
-                        <span className='text-center text-xs font-bold'>
-                            // short description
-                        </span>
                         {/* buttons */}
-                        <div className='pt-4 text-center'>
+                        <div className='py-2 text-center'>
                             <a href='/'>
-                                <button className='text-center rounded px-4 py-3 m-2 bg-white text-[#5e5e5e] font-bold text-xs'>Demo</button>
+                                <button className='text-center border rounded px-4 py-2 m-2 bg-white text-[#5e5e5e] font-bold text-xs hover:bg-[#5e5e5e] hover:text-[#ffffff] hover:border-[#5e5e5e] transition ease-in-out duration-300'>Demo</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded px-4 py-3 m-2 bg-white text-[#5e5e5e] font-bold text-xs'>Code</button>
+                            <a href='https://github.com/christinalu3799/react-portfolio' target='_blank'>
+                                <button className='text-center border rounded px-4 py-2 m-2 bg-white text-[#5e5e5e] font-bold text-xs hover:bg-[#5e5e5e] hover:text-[#ffffff] hover:border-[#5e5e5e] transition ease-in-out duration-300'>Code</button>
                             </a>
                         </div>
                     </div>
-                </div>
-                <div style={{backgroundImage: `url(${KrustyKrab})`}} className='shadow-lg shadow-[#929292] group container rounded flex justify-center items-center mx-auto content-div px-4 -z-10'>
 
-                    {/* hover effect */}
-                    <div className='opacity-0 group-hover:opacity-100 flex flex-col justify-center transition duration-300 ease-in-out'>
-                        <span className='text-center text-sm font-bold'>
-                            2-Player racing game
-                        </span>
-                        <span className='text-center text-xs font-bold'>
-                            // short description
-                        </span>
-                        {/* buttons */}
-                        <div className='pt-4 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded px-4 py-3 m-2 bg-white text-[#5e5e5e] font-bold text-xs'>Demo</button>
-                            </a>
-                            <a href='/'>
-                                <button className='text-center rounded px-4 py-3 m-2 bg-white text-[#5e5e5e] font-bold text-xs'>Code</button>
-                            </a>
-                        </div>
-                    </div>
                 </div>
-
-            </div>   
             {/* ===================================================================== */}
+    
+            </div>   
 
         </div>
     </div>
