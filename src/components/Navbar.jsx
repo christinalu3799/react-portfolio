@@ -13,9 +13,9 @@ const Navbar = () => {
 
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-6 text-grey-300 font-mono z-10'>
+        <div className='fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10'>
             <div>
-                <img src={Logo} alt='Logo Image' style={{width: '55px'}}/>
+                <img src={Logo} alt='personal logo' style={{width: '55px'}}/>
             </div>
 
             {/* menu */}
@@ -88,25 +88,25 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919F] rounded'>
                         <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
-                        href='https://www.linkedin.com/in/christinalu3799/' target='_blank'>
+                        href='https://www.linkedin.com/in/christinalu3799/' target='_blank' rel="noreferrer">
                             LinkedIn <FaLinkedin size={25} />
                         </a>
                     </li>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919f] rounded'>
                         <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
-                        href='https://github.com/christinalu3799' target='_blank'>
+                        href='https://github.com/christinalu3799' target='_blank' rel="noreferrer">
                             GitHub <FaGithub size={25} />
                         </a>
                     </li>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919f] rounded'>
                         <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
-                        href='mailto:christina.lu3799@gmail.com' target='_blank'>
+                        href='mailto:christina.lu3799@gmail.com' target='_blank' rel="noreferrer">
                             Email <HiOutlineMail size={25} />
                         </a>
                     </li>
                     <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#72919f] rounded'>
                         <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
-                        href='https://drive.google.com/file/d/103R4L61n0ONW2HID07CaawojnFtiBe9y/view?usp=sharing' target='_blank'>
+                        href='https://drive.google.com/file/d/103R4L61n0ONW2HID07CaawojnFtiBe9y/view?usp=sharing' target='_blank' rel="noreferrer">
                             Resume <BsFillPersonLinesFill size={25} />
                         </a>
                     </li>

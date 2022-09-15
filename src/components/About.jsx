@@ -9,7 +9,7 @@ const About = () => {
 
             {/* wave */}
             <div className=' w-full mb-16'> 
-                <img src={Wave} className='w-full'></img>
+                <img src={Wave} className='w-full' alt='png of wave section divider'></img>
             </div>
 
             {/* title */}
@@ -27,10 +27,10 @@ const About = () => {
             {/* about me */}
             <div className='max-w-[1000px] px-8 py-2 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                 <div className='sm:text-right font-bold'>
-                    <p>Hello! I'm Christina, a self-taught fullstack developer. </p>
+                    <p className='leading-6'>Hello! I'm Christina, a self-taught fullstack developer. </p>
                 </div>
                 <div>
-                    <p>I love to create beautiful and functional experiences from scratch.</p>
+                    <p className='leading-6'>I love to create beautiful and functional experiences from scratch.</p>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ const About = () => {
                 <div className='sm:text-right font-bold'>
                     <p>How I got here</p>
                 </div>
-                <div>
+                <div className='leading-6'>
                     <p>My passion for web development began when I was asked to maintain the website of a law firm I used to work at. Watching the ideas in my mind come to life in the browser was like magic to me, and I never got sick of it.</p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ const About = () => {
                     <p>What am I up to?</p>
                 </div>
                 <div>
-                    <p>I am currently a coding bootcamp student on track to graduate in November of 2022. By then, I will have accumulated over 450 hours of coding experience and knowledge on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies.</p>
+                    <p className='leading-6'>I am currently a coding bootcamp student on track to graduate in November of 2022. By then, I will have accumulated over 450 hours of coding experience and knowledge on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies.</p>
                 </div>
             </div>
             

@@ -6,7 +6,7 @@ const Contact = () => {
     <div name='contact' className='w-full h-fit flex flex-col justify-center items-center p-4 pt-16 font-mono text-[#5e5e5e]'>
         {/* wave */}
         <div className='w-screen mb-16'> 
-            <img src={Wave} className='w-full'></img>
+            <img src={Wave} className='w-full' alt='wave section divider'></img>
         </div>
         <form action='https://getform.io/f/e1d0dccd-6278-4cf3-b445-eaa4cc127c68' className='flex flex-col max-w-[600px] w-full' method='POST'>
             <div className='pb-4'>

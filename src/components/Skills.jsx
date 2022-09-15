@@ -6,7 +6,7 @@ const Skills = () => {
     <div name='skills' className='w-full font-mono text-[#5e5e5e]'>
         {/* wave */}
         <div className='w-full mt-16 mb-8'> 
-            <img src={Wave} className='w-full'></img>
+            <img src={Wave} className='w-full' alt='wave section divider'></img>
         </div>
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-content w-full h-full'>
@@ -106,7 +106,7 @@ const Skills = () => {
        
         {/* wave */}
         <div className='w-full my-8'> 
-            <img src={Wave} className='w-full'></img>
+            <img src={Wave} className='w-full' alt='wave section divider'></img>
         </div> 
     </div>
   )

@@ -4,7 +4,7 @@ import Headshot from '../assets/headshot.jpg'
 
 const Home = () => {
   return (
-    <div name='home' className='flex w-full h-screen justify-center bg-[#ffffff] pt-[80px]'>
+    <div name='home' className='flex w-full h-screen justify-center bg-[#ffffff] pt-[100px]'>
 
       {/* container */}
       <div className='flex flex-col-reverse h-full items-start sm:flex-row max-w-[1000px] justify-center sm:items-center'> 
@@ -28,7 +28,7 @@ const Home = () => {
 
         {/* headshot */}
         <div className='px-8 w-3/4 sm:w-[450px] max-w-[450px] '>
-          <img src={Headshot} className='object-cover w-full rounded-xl'></img>
+          <img src={Headshot} className='object-cover w-full rounded-xl' alt='headshot of girl'/>
         </div>
       
       </div>
