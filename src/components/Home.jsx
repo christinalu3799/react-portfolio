@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import Headshot from '../assets/headshot.jpg'
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -18,9 +19,13 @@ const Home = () => {
           <div className='py-4'>
 
             {/* view my work button */}
-            <button className='text-[#5e5e5e] group border px-6 py-3 my-2 flex items-center hover:bg-[#5e5e5e] hover:text-white hover:border-transparent rounded transition ease-in-out duration-300'>
-              View My Work 
-              <span className='group-hover:translate-x-[5px] transition ease-in-out duration-300'><HiArrowNarrowRight className='ml-3' /></span>
+            <button >
+
+
+                <Link to="work" smooth={true} duration={500} className='text-[#5e5e5e] group border px-6 py-3 my-2 flex items-center hover:bg-[#5e5e5e] hover:text-white hover:border-transparent rounded transition ease-in-out duration-300'>
+                    View My Work 
+                    <span className='group-hover:translate-x-[5px] transition ease-in-out duration-300'><HiArrowNarrowRight className='ml-3' /></span>
+                </Link>
             </button>
 
           </div>
