@@ -6,7 +6,7 @@ class ProjectCard extends Component {
         console.log(this.state)
         return (
         
-            <div className='h-fit p-4 sm:h-[300px] shadow-lg shadow-[#929292] group container rounded flex flex-col justify-center items-center mx-auto '>
+            <div className='h-fit p-4 sm:h-[300px] shadow-md shadow-[#d7d7d7] group container rounded flex flex-col justify-center items-center mx-auto '>
 
                 <div className='w-full h-full sm:h-[150px] bg-[#eeeeee]'> 
                     <img className='object-cover rounded w-full h-full shadow' src={this.props.projectImg} alt={this.props.alt}/>

@@ -104,10 +104,6 @@ const Skills = () => {
 
         </div>
        
-        {/* wave */}
-        <div className='w-full my-8'> 
-            <img src={Wave} className='w-full' alt='wave section divider'></img>
-        </div> 
     </div>
   )
 }

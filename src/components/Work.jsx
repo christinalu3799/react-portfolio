@@ -3,13 +3,17 @@ import RestaurantManager from '../assets/restaurant-mgr.png'
 import KrustyKrab from '../assets/krustykrab.png'
 import Portfolio from '../assets/portfolio.png'
 import ProjectCard from './ProjectCard'
-
+import Wave from '../assets/wave.svg'
 const Work = (props) => {
   return (
     <div name='work' className='w-full md:h-fit text-[#5e5e5e] font-mono box-border'>
+        {/* wave */}
+        <div className='w-full my-8'> 
+            <img src={Wave} className='w-full' alt='wave section divider'></img>
+        </div> 
 
         {/* container */}
-        <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-center w-full h-fulls'>
 
             <div className='pb-4'>
                 <p className='text-4xl font-bold inline border-b-4'>Work</p>
