@@ -9,9 +9,9 @@ const Contact = () => {
             <img src={Wave} className='w-full' alt='wave section divider'></img>
         </div>
         <form action='https://getform.io/f/e1d0dccd-6278-4cf3-b445-eaa4cc127c68' className='flex flex-col max-w-[600px] w-full' method='POST'>
-            <div className='pb-4'>
+            <div>
                 <p className='text-4xl font-bold inline border-b-4'>Contact</p>
-                <p className='py-4'>Feel free to reach out to me about anything or just to say hi!</p>
+                <p className='py-8'>Feel free to reach out to me about anything or just to say hi!</p>
             </div>
             <input className='p-2 border rounded outline-none' type="text" placeholder='Name' name='name' required />
             <input className='my-4 p-2 border rounded outline-none' type="email" placeholder='Email' name='email' required />

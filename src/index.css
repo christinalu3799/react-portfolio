@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 @layer base {
     body {
         @apply font-[SourceCodePro];
@@ -14,20 +15,3 @@
     }
 }
 
-/* .content-div {
-    backdrop-filter: grayscale(30%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 175px;
-    width: 100%;
-    overflow: hidden;
-    transition: all ease-in-out 300ms;
-} */
-
-/* .content-div:hover {
-    background-image: linear-gradient(
-        #72919F60,
-        #72919F60
-    )!important;
-} */

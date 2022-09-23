@@ -6,7 +6,7 @@ class ProjectCard extends Component {
         console.log(this.state)
         return (
         
-            <div className='h-fit p-4 sm:h-[330px] shadow-md shadow-[#d7d7d7] group container rounded flex flex-col justify-center items-center mx-auto '>
+            <div className='h-fit p-2 shadow-md shadow-[#888888] group container rounded flex flex-col justify-center items-center mx-auto bg-[#94a8b2] text-white'>
 
                 <div className='w-full h-full sm:h-[150px] bg-[#eeeeee]'> 
                     <img className='object-cover rounded w-full h-full shadow' src={this.props.projectImg} alt={this.props.alt}/>
@@ -14,21 +14,21 @@ class ProjectCard extends Component {
 
                 <div className='flex flex-col justify-center mt-4 transition duration-300 ease-in-out'>
                     {/* project title */}
-                    <span className='mt-2 text-center font-bold'>
+                    <span className='text-lg text-center font-bold'>
                         {this.props.projectTitle}
                     </span>
                     {/* project subtitle */}
-                    <span className='text-center text-sm font-bold mt-2'>
+                    <span className='text-center text-sm font-bold'>
                         {this.props.projectSubtitle}
                     </span>
 
                     {/* buttons */}
-                    <div className='py-2 text-center'>
+                    <div className='pt-2 text-center'>
                         <a href={this.props.demo} target='_blank' rel="noreferrer">
-                            <button className='text-center border rounded px-4 py-2 m-2 bg-white text-[#5e5e5e] font-bold hover:bg-[#5e5e5e] hover:text-[#ffffff] hover:border-[#5e5e5e] transition ease-in-out duration-300'>Demo</button>
+                            <button className='text-sm text-center border rounded px-2 py-1 m-2 bg-white text-[#5e5e5e] font-bold hover:bg-[#5e5e5e] hover:text-[#ffffff] hover:border-[#5e5e5e] transition ease-in-out duration-300'>Demo</button>
                         </a>
                         <a href={this.props.code} target='_blank' rel="noreferrer">
-                            <button className='text-center border rounded px-4 py-2 m-2 bg-white text-[#5e5e5e] font-bold hover:bg-[#5e5e5e] hover:text-[#ffffff] hover:border-[#5e5e5e] transition ease-in-out duration-300'>Code</button>
+                            <button className='text-sm text-center border rounded px-2 py-1 m-2 bg-white text-[#5e5e5e] font-bold hover:bg-[#5e5e5e] hover:text-[#ffffff] hover:border-[#5e5e5e] transition ease-in-out duration-300'>Code</button>
                         </a>
                     </div>
                 </div>

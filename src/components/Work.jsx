@@ -27,7 +27,7 @@ const Work = (props) => {
                 <ProjectCard projectImg={Portfolio} alt={'screenshot of portfolio'} projectTitle='Portfolio' projectSubtitle={'React | Tailwind CSS'} demo={'/'} code={'https://github.com/christinalu3799/react-portfolio'}/>
             {/* ===================================================================== */}
             {/* ===================================================================== */}
-                <ProjectCard projectImg={RestaurantManager} alt={'screenshot of login page for inventory manager app'}  projectTitle='Inventory Manager' projectSubtitle={'Node.js| Mongoose | Express'} demo={'https://restaurant-inventory-manager.herokuapp.com/'} code={'https://github.com/christinalu3799/restaurant-inventory-manager'}/>
+                <ProjectCard projectImg={RestaurantManager} alt={'screenshot of login page for inventory manager app'}  projectTitle='Inventory Manager' projectSubtitle={'Mongoose | Express | Node.js'} demo={'https://restaurant-inventory-manager.herokuapp.com/'} code={'https://github.com/christinalu3799/restaurant-inventory-manager'}/>
                 
             {/* ===================================================================== */}
             {/* ===================================================================== */}
