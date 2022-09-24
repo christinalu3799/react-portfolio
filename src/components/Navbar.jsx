@@ -49,9 +49,8 @@ const Navbar = () => {
 
             {/* hamburger */}
             <div onClick={handleClick} className='sm:hidden z-10'>
-                {!nav ? <FaBars color='#5e5e5e'/> : <FaTimes color='#ffffff'/>}
+                {!nav ? <FaBars color='#ffffff'/> : <FaTimes color='#ffffff'/>}
             </div>
-
 
             {/* mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#5e5e5e] text-[#ffffff] flex flex-col justify-center items-center'}>
