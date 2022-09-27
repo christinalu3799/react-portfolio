@@ -49,7 +49,7 @@ const Navbar = () => {
 
             {/* hamburger */}
             <div onClick={handleClick} className='sm:hidden z-10'>
-                {!nav ? <FaBars color='#ffffff'/> : <FaTimes color='#ffffff'/>}
+                {!nav ? <FaBars color='#5e5e5e'/> : <FaTimes color='#ffffff'/>}
             </div>
 
             {/* mobile menu */}
