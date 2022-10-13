@@ -6,13 +6,13 @@ class ProjectCard extends Component {
         console.log(this.state)
         return (
         
-            <div className='h-fit p-2 shadow-md shadow-[#888888] group container rounded flex flex-col justify-center items-center mx-auto bg-[#d3dade] '>
+            <div className='h-[400px] p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] '>
 
-                <div className='w-full h-full sm:h-[150px] bg-[#eeeeee]'> 
-                    <img className='object-cover rounded w-full h-full shadow' src={this.props.projectImg} alt={this.props.alt}/>
+                <div className='w-full h-full sm:h-[250px] bg-[#eeeeee]'> 
+                    <img className='object-cover rounded w-full h-full shadow filter contrast-75 hover:contrast-100 ease-in-out duration-500' src={this.props.projectImg} alt={this.props.alt}/>
                 </div>
 
-                <div className='flex flex-col justify-center mt-4 transition duration-300 ease-in-out'>
+                <div className='flex flex-col justify-center mt-4'>
                     {/* project title */}
                     <span className='text-lg text-center font-bold'>
                         {this.props.projectTitle}
@@ -21,7 +21,12 @@ class ProjectCard extends Component {
                     <span className='text-center text-sm font-bold'>
                         {this.props.projectSubtitle}
                     </span>
+                    <div>
 
+                    {/* <div className='pt-2 w-8 mx-auto'>
+                        {this.props.icon}
+                    </div> */}
+                </div>
                     {/* buttons */}
                     <div className='pt-2 text-center'>
                         <a href={this.props.demo} target='_blank' rel="noreferrer">
