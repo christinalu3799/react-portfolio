@@ -27,7 +27,7 @@ const About = () => {
             {/* about me */}
             <div className='max-w-[1000px] px-8 py-2 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                 <div className='text-xl sm:text-lg sm:text-right font-bold'>
-                    <p className='leading-6'>Hello! I'm Christina, a self-taught fullstack developer. </p>
+                    <p className='leading-6'>I'm Christina, a fullstack developer. </p>
                 </div>
                 <div>
                     <p className='leading-6'>I love to create beautiful and functional experiences from scratch.</p>
@@ -36,7 +36,7 @@ const About = () => {
 
             <div className='max-w-[1000px] px-8 py-4 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                 <div className='text-xl sm:text-lg sm:text-right font-bold'>
-                    <p>How I got here</p>
+                    <p>How I got here:</p>
                 </div>
                 <div className='leading-6'>
                     <p>My passion for web development began when I was asked to maintain the website of a law firm I used to work at. Watching the ideas in my mind come to life in the browser was like magic to me, and I never got sick of it.</p>

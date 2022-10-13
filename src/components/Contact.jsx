@@ -3,7 +3,7 @@ import Wave from '../assets/wave.svg'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-fit flex flex-col justify-center items-center p-4 pt-16 font-mono text-[#5e5e5e]'>
+    <div name='contact' className='w-full h-fit flex flex-col justify-center items-center p-4 py-16 font-mono text-[#5e5e5e]'>
         {/* wave */}
         <div className='w-screen mb-16'> 
             <img src={Wave} className='w-full' alt='wave section divider'></img>
