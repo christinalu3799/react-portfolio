@@ -30,7 +30,7 @@ const About = () => {
                     <p className='leading-6'>I'm Christina, a fullstack developer. </p>
                 </div>
                 <div>
-                    <p className='leading-6'>I love to create beautiful and functional experiences from scratch.</p>
+                    <p>I love to create beautiful and functional experiences from scratch.</p>
                 </div>
             </div>
 
@@ -38,8 +38,8 @@ const About = () => {
                 <div className='text-xl sm:text-lg sm:text-right font-bold'>
                     <p>How I got here:</p>
                 </div>
-                <div className='leading-6'>
-                    <p>My passion for software development stemmed from my past role at a law firm where I was tasked with maintaining the company site.</p>
+                <div>
+                    <p>My passion for software development stemmed from my last role at a law firm where I had the opportunity to work on the company site.</p>
                     <br></br>
                     <p> Watching the ideas in my mind come to life in the browser was like magic to me and I've been hooked ever since.</p>
                 </div>
@@ -50,7 +50,7 @@ const About = () => {
                     <p>What am I up to?</p>
                 </div>
                 <div>
-                    <p className='leading-6'>I am currently a coding bootcamp student on track to graduate in November of 2022. </p>
+                    <p>I am currently a coding bootcamp student on track to graduate in November of 2022. </p>
                     <br></br>
                     <p>By then, I will have accumulated over 450 hours of coding experience and knowledge on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies.</p>
                 </div>
@@ -61,7 +61,9 @@ const About = () => {
                     <p>What's next?</p>
                 </div>
                 <div>
-                    <p className='leading-6'>I am actively seeking an entry level software engineer role to work on functional projects using intentional and user-focused design. Leveraging my experience in the legal, hospitality, and education services industry, I am confident in my ability to work effectively with people from all backgrounds. </p>
+                    <p>I am actively seeking an entry level software engineer role to work on functional projects using intentional and user-focused design.</p>
+                    <br></br>
+                    <p>Leveraging my experience in the legal, hospitality, and education services industry, I am confident in my ability to work effectively with people from all backgrounds. </p>
                 </div>
             </div>
             
