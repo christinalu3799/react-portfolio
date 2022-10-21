@@ -39,7 +39,9 @@ const About = () => {
                     <p>How I got here:</p>
                 </div>
                 <div className='leading-6'>
-                    <p>My passion for web development began when I was asked to maintain the website of a law firm I used to work at. Watching the ideas in my mind come to life in the browser was like magic to me, and I never got sick of it.</p>
+                    <p>My passion for software development stemmed from my past role at a law firm where I was tasked with maintaining the company site.</p>
+                    <br></br>
+                    <p> Watching the ideas in my mind come to life in the browser was like magic to me and I've been hooked ever since.</p>
                 </div>
             </div>
 
@@ -48,7 +50,18 @@ const About = () => {
                     <p>What am I up to?</p>
                 </div>
                 <div>
-                    <p className='leading-6'>I am currently a coding bootcamp student on track to graduate in November of 2022. By then, I will have accumulated over 450 hours of coding experience and knowledge on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies.</p>
+                    <p className='leading-6'>I am currently a coding bootcamp student on track to graduate in November of 2022. </p>
+                    <br></br>
+                    <p>By then, I will have accumulated over 450 hours of coding experience and knowledge on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies.</p>
+                </div>
+            </div>
+
+            <div className='max-w-[1000px] px-8 py-4 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
+                <div className='text-xl sm:text-lg sm:text-right font-bold'>
+                    <p>What's next?</p>
+                </div>
+                <div>
+                    <p className='leading-6'>I am actively seeking an entry level software engineer role to work on functional projects using intentional and user-focused design. Leveraging my experience in the legal, hospitality, and education services industry, I am confident in my ability to work effectively with people from all backgrounds. </p>
                 </div>
             </div>
             
