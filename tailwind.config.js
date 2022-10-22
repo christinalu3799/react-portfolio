@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",],
-  theme: {
-    extend: {
-      fontFamily: {
-        'mono': ['Source Code Pro'],
-        'display': ['Libre Baskerville']
+    content: ["./src/**/*.{js,jsx,ts,tsx}",],
+    theme: {
+      extend: {
+        fontFamily: {
+          'mono': ['Source Code Pro'],
+          'display': ['Libre Baskerville']
+        }
       }
-    }
-  },
-  plugins: [],
-}
+    },
+    plugins: [],
+  }
+  

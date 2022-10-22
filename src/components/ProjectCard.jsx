@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 class ProjectCard extends Component {
     
     render() {
-        console.log(this.state)
         return (
         
             <div className='h-[400px] border border-[#c0c0c0] p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] '>

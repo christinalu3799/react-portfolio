@@ -1,5 +1,6 @@
 import React from 'react'
 import Wave from '../assets/wave.svg'
+// import Zoom from 'react-reveal/Zoom'
 
 const About = () => {
   return (
@@ -23,7 +24,10 @@ const About = () => {
               
                 </div>
             </div>
-
+{/* 
+            <Zoom>
+                <p>This text will be revealed on scroll!!</p>
+            </Zoom> */}
             {/* about me */}
             <div className='max-w-[1000px] px-8 py-2 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                 <div className='text-xl sm:text-lg sm:text-right font-bold'>
