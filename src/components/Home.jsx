@@ -3,8 +3,18 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 import Headshot from '../assets/headshot.jpg'
 import {Link} from 'react-scroll'
 import Typewriter from 'typewriter-effect'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 const Home = () => {
+    // animate on scroll effect
+    useEffect(()=>{
+        Aos.init({
+            duration:2000,
+            offset:300
+        })
+    },[])
   return (
     <div name='home' className='flex w-full h-screen justify-center bg-[#ffffff] pt-[100px]'>
 
@@ -12,7 +22,7 @@ const Home = () => {
         <div className='flex w-full flex-col-reverse h-full items-start sm:flex-row max-w-[1000px] justify-center sm:items-center'> 
 
             {/* hero */}
-            <div className='w-full sm:w-8/12 px-8 sm:pl-18 sm:pr-0 mx-auto flex flex-col justify-center h-fit sm:h-full font-mono text-[#5e5e5e]'>
+            <div data-aos='fade-right' className='w-full sm:w-8/12 px-8 sm:pl-18 sm:pr-0 mx-auto flex flex-col justify-center h-fit sm:h-full font-mono text-[#5e5e5e]'>
 
                 <p className='mt-8 text-xl'>Hi, my name is</p>
                 <h1 className='text-5xl sm:text-6xl font-bold font-display py-4'>Christina Lu</h1>
@@ -50,7 +60,7 @@ const Home = () => {
             </div>
 
             {/* headshot */}
-            <div className='px-8 w-3/4 sm:w-[450px] max-w-[450px] '>
+            <div data-aos='fade-left' className='px-8 w-3/4 sm:w-[450px] max-w-[450px] '>
                 <img src={Headshot} className='object-cover w-full rounded-xl' alt='headshot of girl'/>
             </div>
         

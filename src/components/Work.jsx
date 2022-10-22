@@ -17,7 +17,7 @@ const Work = (props) => {
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-center w-full h-fulls'>
 
-            <div className='pb-16'>
+            <div data-aos='fade-right' className='pb-16'>
                 <p className='text-4xl font-bold inline border-b-4'>Work</p>
                 {/* <p className='py-8 sm:pb-4 text'>Check out some of my recent work!</p> */}
             </div>

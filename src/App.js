@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Navbar />
       <Home />
       <About />
