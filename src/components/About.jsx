@@ -31,10 +31,10 @@ const About = () => {
             {/* about me */}
             <div className='max-w-[1000px] px-8 py-2 sm:px-16 sm:py-4 w-full grid sm:grid-cols-2 gap-8'>
                 <div className='text-xl sm:text-lg sm:text-right font-bold'>
-                    <p data-aos='fade-right'>I'm Christina, a fullstack developer. </p>
+                    <p data-aos='fade-right'>Hello there! I'm Christina.</p>
                 </div>
                 <div>
-                    <p data-aos='fade-left'>I love to create beautiful and functional experiences from scratch.</p>
+                    <p data-aos='fade-left'>I love creating beautiful and functional experiences from scratch.</p>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ const About = () => {
                     <p data-aos='fade-right'>How I got here:</p>
                 </div>
                 <div data-aos='fade-left'>
-                    <p>My passion for software development stemmed from my last role at a law firm where I had the opportunity to work on the company site.</p>
+                    <p>My passion for software development stemmed from my last role at a law firm where I worked on the company site.</p>
                     <br></br>
                     <p> Watching the ideas in my mind come to life in the browser was like magic to me and I've been hooked ever since.</p>
                 </div>

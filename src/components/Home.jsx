@@ -19,18 +19,21 @@ const Home = () => {
     <div name='home' className='flex w-full h-screen justify-center bg-[#ffffff] pt-[100px]'>
 
         {/* container */}
-        <div className='flex w-full flex-col-reverse h-full items-start sm:flex-row max-w-[1000px] justify-center sm:items-center'> 
+        <div className='flex w-full flex-col h-full items-start sm:flex-row max-w-[1000px] justify-center sm:items-center'> 
 
             {/* hero */}
-            <div data-aos='fade-right' className='w-full sm:w-8/12 px-8 sm:pl-18 sm:pr-0 mx-auto flex flex-col justify-center h-fit sm:h-full font-mono text-[#5e5e5e]'>
+            <div data-aos='fade-right' className='px-8 sm:px-0 w-3/4 sm:w-1/3 '>
+                <img src={Headshot} className='object-cover sm:max-w-[300px]  rounded-xl' alt='headshot of girl'/>
+            </div>
 
+            <div data-aos='fade-left' className='w-full sm:w-2/3 px-8 sm:pl-18 sm:pr-0 mx-auto flex flex-col justify-center h-fit sm:h-full font-mono text-[#5e5e5e]'>
                 <p className='mt-8 text-xl'>Hi, my name is</p>
                 <h1 className='text-5xl sm:text-6xl font-bold font-display py-4'>Christina Lu</h1>
-                <h2 className='text-xl sm:text-3xl font-bold'>
+                <h2 className='text-xl font-bold'>
                     <Typewriter 
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("I'm a Fullstack Developer.")
+                                .typeString("I'm a Fullstack Software Engineer.")
                                 .pauseFor(200)
                                 .start();
                         }}
@@ -57,11 +60,6 @@ const Home = () => {
                     </button>
 
                 </div>
-            </div>
-
-            {/* headshot */}
-            <div data-aos='fade-left' className='px-8 w-3/4 sm:w-[450px] max-w-[450px] '>
-                <img src={Headshot} className='object-cover w-full rounded-xl' alt='headshot of girl'/>
             </div>
         
         </div>
