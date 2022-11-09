@@ -8,7 +8,7 @@ import GITRipped from '../assets/gitripped.png'
 
 const Work = (props) => {
   return (
-    <div name='work' className='w-full md:h-fit text-[#5e5e5e] font-mono box-border'>
+    <div name='work' className='w-full md:h-fit text-[#5e5e5e] font-mono box-border background-color'>
         {/* wave */}
         <div className='w-full my-8'> 
             <img src={Wave} className='w-full' alt='wave section divider'></img>
@@ -18,8 +18,7 @@ const Work = (props) => {
         <div className='max-w-[1000px] mx-auto px-8 sm:px-16 flex flex-col justify-center w-full h-fulls'>
 
             <div data-aos='fade-right' className='pb-16'>
-                <p className='text-4xl font-bold inline border-b-4'>Work</p>
-                {/* <p className='py-8 sm:pb-4 text'>Check out some of my recent work!</p> */}
+                <p className='text-4xl font-bold inline border-b-4 border-[#94a8b2]'>Work</p>
             </div>
 
             {/* container to hold all projects */}

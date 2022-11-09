@@ -12,7 +12,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className=' sm:bg-white fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10'>
+        <div className='sm:background-color fixed w-full h-[100px] flex justify-between items-center px-8 text-grey-300 font-mono z-10'>
             <div>
                 <img src={Logo} alt='personal logo' style={{width: '70px'}}/>
             </div>

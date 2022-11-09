@@ -5,7 +5,7 @@ class ProjectCard extends Component {
     render() {
         return (
         
-            <div data-aos='fade-up' className='h-[400px] border border-[#c0c0c0] p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] '>
+            <div data-aos='fade-up' className='h-[400px] border border-[#dadada] p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] '>
 
                 <div className='w-full h-full sm:h-[250px] bg-[#eeeeee]'> 
                     <img className='object-cover rounded w-full h-full shadow filter contrast-75 hover:contrast-100 ease-in-out duration-500' src={this.props.projectImg} alt={this.props.alt}/>
@@ -22,9 +22,6 @@ class ProjectCard extends Component {
                     </span>
                     <div>
 
-                    {/* <div className='pt-2 w-8 mx-auto'>
-                        {this.props.icon}
-                    </div> */}
                 </div>
                     {/* buttons */}
                     <div className='pt-2 text-center'>
