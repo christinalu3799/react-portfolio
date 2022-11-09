@@ -19,19 +19,19 @@ const Home = () => {
         <div name='home' className='flex w-full h-screen justify-center background-color pt-[100px]'>
 
             {/* container */}
-            <div className='flex w-full flex-col h-full items-start md:flex-row max-w-[1000px] justify-center md:items-center'> 
+            <div className='flex w-full flex-col h-full items-start md:flex-row max-w-[1200px] justify-center md:items-center'> 
 
                 {/* hero */}
-                <div data-aos='fade-right' className='px-4 w-2/3 md:w-1/3 '>
+                <div data-aos='fade-right' className='px-8 w-[80%] md:w-1/3 '>
                     <img src={Headshot} 
-                        className='object-cover w-full md:max-w-[350px] rounded-xl' 
+                        className='object-cover w-full rounded-xl' 
                         alt='headshot of girl'/>
                 </div>
 
                 <div data-aos='fade-left' className='w-full md:h-full md:w-2/3 px-8 mx-auto flex flex-col justify-center h-fit font-mono text-color'>
-                    <p className='mt-8 text-xl'>Hi, my name is</p>
-                    <h1 className='text-5xl md:text-6xl font-bold font-display py-4'>Christina Lu</h1>
-                    <h2 className='text-xl font-bold'>
+                    <p className='mt-8 text-lg md:text-xl'>Hi, my name is</p>
+                    <h1 className='text-4xl md:text-6xl font-bold font-display py-4'>Christina Lu</h1>
+                    <h2 className='text-lg md:text-xl font-bold'>
                         <Typewriter 
                             onInit={(typewriter) => {
                                 typewriter
