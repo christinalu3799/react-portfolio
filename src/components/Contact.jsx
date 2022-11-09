@@ -6,7 +6,7 @@ const Contact = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-        <div name='contact' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono text-[#5e5e5e] background-color'>
+        <div name='contact' className='w-full h-fit flex flex-col justify-center items-center py-16 font-mono background-color'>
 
             {/* wave */}
             <div className='w-screen mb-16'> 
@@ -19,14 +19,14 @@ const Contact = () => {
                 method='POST'
             >
                 <div data-aos='slide-up'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#94a8b2]'>Contact</p>
+                    <p className='text-4xl font-display inline]'>Contact</p>
                     <p className='py-8'>Feel free to reach out to me about anything or just to say hi!</p>
                 </div>
-                <input className='p-2 border border-[#c0c0c0] rounded outline-none' type="text" placeholder='Name' name='name' required />
-                <input className='my-4 p-2 border border-[#c0c0c0] rounded outline-none' type="email" placeholder='Email' name='email' required />
-                <textarea className='p-2 border border-[#c0c0c0] rounded outline-none resize-none' name="message" rows="10" placeholder='Message' required></textarea>
+                <input className='p-2 border rounded outline-none' type="text" placeholder='Name' name='name' required />
+                <input className='my-4 p-2 border rounded outline-none' type="email" placeholder='Email' name='email' required />
+                <textarea className='p-2 border rounded outline-none resize-none' name="message" rows="10" placeholder='Message' required></textarea>
 
-                <button className='text-[#5e5e5e] border rounded border-[#c0c0c0] hover:bg-[#5e5e5e] hover:border-white hover:text-white px-4 py-3 my-8 mx-auto flex items-center transition ease-in-out duration-300'>Submit</button>
+                <button className='border rounded border-[#4C433D] hover:bg-[#4C433D] hover:border-white hover:text-white px-4 py-3 my-8 mx-auto flex items-center transition ease-in-out duration-300'>Submit</button>
             </form>
             <button className='cursor-pointer'>
                 <Link  onClick={handleClick} to="home" smooth={true} duration={500}>

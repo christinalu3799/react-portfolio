@@ -4,7 +4,7 @@ import Wave from '../assets/wave.svg'
 const About = () => {
  
   return (
-    <div name='about' className='w-full h-fit text-[#5e5e5e] background-color'>
+    <div name='about' className='w-full h-fit background-color'>
 
         <div className='flex flex-col justify-center items-center w-full h-full font-mono'>
 
@@ -16,7 +16,7 @@ const About = () => {
             {/* title */}
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8' data-aos='fade-right'> 
                 <div className='sm:text-right pb-8 pl-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#94a8b2]'>
+                    <p className='text-4xl font-display inline'>
                         About
                     </p>
                 </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
 
             {/* menu */}
             {/* display anything above small */}
-            <ul className='hidden sm:flex text-[#5e5e5e]'>
+            <ul className='hidden sm:flex text-color'>
                 <li className='hover:underline underline-offset-4'>
                     <Link to="home" smooth={true} duration={500}>
                         home
@@ -49,11 +49,11 @@ const Navbar = () => {
 
             {/* hamburger */}
             <div onClick={handleClick} className='sm:hidden z-10'>
-                {!nav ? <FaBars color='#5e5e5e'/> : <FaTimes color='#ffffff'/>}
+                {!nav ? <FaBars color='#221F1B'/> : <FaTimes color='#EDEAE3'/>}
             </div>
 
             {/* mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#5e5e5e] text-[#ffffff] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#221F1B] text-[#EDEAE3] flex flex-col justify-center items-center'}>
                 <li  className='py-6 text-2xl'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                         home
@@ -84,26 +84,26 @@ const Navbar = () => {
             {/* social icons */}
             <div className='hidden md:flex fixed flex-col bottom-20 left-0'>
                 <ul>
-                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#94a8b2] rounded'>
-                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
                         href='https://www.linkedin.com/in/christinalu3799/' target='_blank' rel="noreferrer">
                             LinkedIn <FaLinkedin size={25} />
                         </a>
                     </li>
-                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#94a8b2] rounded'>
-                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
                         href='https://github.com/christinalu3799' target='_blank' rel="noreferrer">
                             GitHub <FaGithub size={25} />
                         </a>
                     </li>
-                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#94a8b2] rounded'>
-                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
                         href='mailto:contact@christinalu.me' target='_blank' rel="noreferrer">
                             Email <HiOutlineMail size={25} />
                         </a>
                     </li>
-                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#94a8b2] rounded'>
-                        <a className='w-full flex justify-between items-center text-[#ffffff] text-xs'
+                    <li className='w-[130px] h-[50px] flex justify-between items-center my-1 ml-[-75px] hover:ml-[-5px] duration-300 bg-[#4C433D] rounded'>
+                        <a className='w-full flex justify-between items-center text-[#EDEAE3] text-xs'
                         href='https://drive.google.com/file/d/1le062bv5yVDrKYchMyFB_hhcPtKl8ITE/view?usp=sharing' target='_blank' rel="noreferrer">
                             Resume <BsFillPersonLinesFill size={25} />
                         </a>
