@@ -5,9 +5,9 @@ class ProjectCard extends Component {
     render() {
         return (
         
-            <div data-aos='fade-up' className='h-[400px] p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] '>
+            <div data-aos='fade-up' className=' p-4 shadow-lg shadow-[#d6d6d6] group container rounded flex flex-col justify-center items-center mx-auto bg-[#ffffff] '>
 
-                <div className='w-full h-full sm:h-[250px] bg-[#eeeeee]'> 
+                <div className='w-full h-full sm:h-[450px] bg-[#eeeeee]'> 
                     <img className='object-cover rounded w-full h-full shadow filter contrast-75 hover:contrast-100 ease-in-out duration-500' src={this.props.projectImg} alt={this.props.alt}/>
                 </div>
 
@@ -19,6 +19,10 @@ class ProjectCard extends Component {
                     {/* project subtitle */}
                     <span className='text-center text-sm font-bold'>
                         {this.props.projectSubtitle}
+                    </span>
+                    {/* project subtitle */}
+                    <span className='text-center text-sm my-4'>
+                        {this.props.desc}
                     </span>
                     <div>
 

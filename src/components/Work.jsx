@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectManager from '../assets/project-mgr.png'
 import RestaurantManager from '../assets/restaurant-mgr.png'
 import KrustyKrab from '../assets/krustykrab.png'
 import Portfolio from '../assets/portfolio.png'
@@ -22,36 +23,47 @@ const Work = (props) => {
             </div>
 
             {/* container to hold all projects */}
-            <div className='grid sm:grid-cols-2 gap-6'>
+            <div className='grid sm:grid-cols-1 gap-6'>
                 
+            {/* ===================================================================== */}
+                <ProjectCard 
+                    projectImg={ProjectManager} 
+                    alt={'screenshot of project manager application'}  projectTitle='Simple Tracker' 
+                    projectSubtitle={'React | Flask | PostgreSQL'} 
+                    desc={'An easy-to-use project manager for freelancers and independent contractors.'}
+                    demo={'https://projectxmanager.herokuapp.com'} 
+                    code={'https://github.com/christinalu3799/project-manager-frontend'}/>
             {/* ===================================================================== */}
                 <ProjectCard 
                     projectImg={Portfolio} 
                     alt={'screenshot of portfolio'} 
                     projectTitle='Portfolio'
                     projectSubtitle={'React | Tailwind CSS'} 
+                    desc={'My developer portfolio created with React and styled with Tailwind.'}
                     demo={'/'} 
                     code={'https://github.com/christinalu3799/react-portfolio'}/>
             {/* ===================================================================== */}
-                <ProjectCard 
+                {/* <ProjectCard 
                     projectImg={RestaurantManager} 
                     alt={'screenshot of login page for inventory manager app'}  projectTitle='Inventory Manager' 
                     projectSubtitle={'Mongoose | Express | Node.js'} 
                     demo={'https://restaurant-inventory-manager.herokuapp.com/'} 
-                    code={'https://github.com/christinalu3799/restaurant-inventory-manager'}/>
+                    code={'https://github.com/christinalu3799/restaurant-inventory-manager'}/> */}
             {/* ===================================================================== */}
                 <ProjectCard 
                     projectImg={KrustyKrab} 
                     alt={'screenshot of krusty krab racing game'}  
-                    projectTitle='Racing Game' 
+                    projectTitle='2-Player Racing Game' 
                     projectSubtitle={'HTML | CSS | JavaScript'} 
+                    desc={'A racing game based on my favorite childhood show. May the swiftest Patty Wagon win.'}
                     demo={'https://christinalu3799.github.io/race-to-the-krusty-krab/'} 
                     code={'https://github.com/christinalu3799/race-to-the-krusty-krab'}/>
             {/* ===================================================================== */}
                 <ProjectCard 
                     projectImg={GITRipped} 
-                    alt={'screenshot of gitripped application'}  projectTitle='GITRipped' 
+                    alt={'screenshot of gitripped application'}  projectTitle='GITRipped - Workout App' 
                     projectSubtitle={'MERN Stack'} 
+                    desc={'A simple application created with 2 other developers that allows users to browse and save different exercises.'}
                     demo={'https://gitripped-app.herokuapp.com/'} 
                     code={'https://github.com/pgarbrecht/gitripped-frontend'}/>
             {/* ===================================================================== */}
